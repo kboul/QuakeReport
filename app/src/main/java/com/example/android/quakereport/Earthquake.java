@@ -6,7 +6,7 @@ package com.example.android.quakereport;
 
 public class Earthquake {
 
-    private String magnitude;
+    private Double magnitude;
     private String location;
     private long timeInMilliseconds;
 
@@ -18,13 +18,13 @@ public class Earthquake {
      * @param timeInMilliseconds is the time in milliseconds (from the Epoch) when the
      *  earthquake happened
      */
-    public Earthquake (String magnitude, String location, long timeInMilliseconds) {
+    public Earthquake (Double magnitude, String location, long timeInMilliseconds) {
         this.magnitude = magnitude;
         this.location = location;
         this.timeInMilliseconds = timeInMilliseconds;
     }
 
-    public String getMagnitude() { return magnitude; }
+    public Double getMagnitude() { return magnitude; }
 
     public String getLocation() {
         return location;
