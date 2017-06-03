@@ -8,37 +8,44 @@
 
     <TextView
         android:id="@+id/magnitude"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        tools:text="name" />
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        tools:text="7.2" />
 
     <TextView
         android:id="@+id/location_offset"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
         android:layout_weight="1"
-        tools:text="location_offset" />
+        tools:text="88km N of" />
 
     <TextView
         android:id="@+id/primary_location"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
         android:layout_weight="1"
-        tools:text="primary_location" />
+        tools:text="Yelizovo, Russia" />
 
     <TextView
         android:id="@+id/date"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        tools:text="date" />
+        tools:text="Jan 30, 2016" />
 
     <TextView
         android:id="@+id/time"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        tools:text="time" />
+        tools:text="05:25 AM" />
 
 </LinearLayout>
